@@ -71,6 +71,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 150px;
 }
 
 .second h2 {
@@ -225,4 +226,131 @@ body {
     width: 250px;
     align-items: center;
     text-align: center;
+}
+
+
+/* Mobile 768px */
+
+@media (max-width: 769px) {
+
+    .header {
+        margin: 50px 0px;
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .first {
+        padding: 20px;
+        display: block;
+        align-items: center;
+        text-align: center;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .first h3 {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+
+    .first h1 {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+
+    .first button {
+        font-size: 30px;
+        height: 90px;
+        width: 90%;
+}
+
+    .first img {
+        display: none;
+    }
+
+    .second {
+        padding: 20px;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .second h2 {
+        font-size: 37px;
+        padding: 30px;
+    }
+
+    .cards {
+        display: inline-block;
+        padding: 0px;
+        margin-bottom: 50px;
+    }
+
+    .card {
+        margin: 0;
+        display: flex;
+        margin: 30px;
+        font-size: 30px;
+    }
+
+    .third {
+        text-align: center;
+        height: 100vh;
+        padding: 20px;
+    }
+
+    .text-2 {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+    }
+
+    .third h1 {
+        font-size: 50px;
+    }
+
+    .third h3 {
+        font-size: 35px;
+    }
+
+    .third button {
+        font-size: 30px;
+        height: 90px;
+        width: 90%;
+    }
+    
+    .third img {
+        display: none;
+    }
+
+    .third button {
+
+        width: 90%;
+    }
+
+    .fourth {
+        padding: 20px;
+        height: 100vh;
+    }
+
+    .fourth input {
+        width: 90%;
+    }
+    
+    .fourth button {
+        font-size: 30px;
+        height: 90px;
+        width: 90%;
+    }
+
+    .footer {
+        width: 100%;
+        text-align: center;
+    }
+
+    
 }
