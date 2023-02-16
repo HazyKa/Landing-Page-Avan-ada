@@ -11,9 +11,20 @@ body {
     background-color: #15161B;
 }
 
+.code {
+    position: fixed;
+    float: right;
+    font-size: 0.4em;
+    color: #2f3242;
+}
+
+.code a {
+    color: #2f3242;
+    text-decoration: none;
+}
+
 .header {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     color: white;
     font-weight: bold;
     margin: 50px;
