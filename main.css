@@ -3,6 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Oswald';
+    font-size: 62.5%;
 }
 
 
@@ -10,50 +11,63 @@ body {
     background-color: #15161B;
 }
 
+.code {
+    position: fixed;
+    float: right;
+    font-size: 0.4em;
+    color: #2f3242;
+}
+
+.code a {
+    color: #2f3242;
+    text-decoration: none;
+}
+
 .header {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     color: white;
     font-weight: bold;
     margin: 50px;
-    font-size: 22px;
+    font-size: 7rem;
 }
 
 .header span {
     color: #1A7993;
+    font-size: 4.5rem;
 }
 
 .first {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 200px 80px;
+    width: 100%;
 }
 
 .text {
     color: white;
+    max-width: 60%;
 }
 
 .text h3 {
-    font-size: 22px;
+    font-size: 2.2rem;
     font-weight: normal;
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
 }
 
 .text h1 {
-    font-size: 70px;
-    line-height: 70px;
+    font-size: 7rem;
+    line-height: 7rem;
 }
 
 .text button {
-    height: 110px;
-    width: 400px;
+    height: 11rem;
+    width: 75%;
     background-color: #1A7993;
     color: white;
-    font-size: 35px;
+    font-size: 3.5rem;
     font-weight: bold;
-    margin-top: 30px;
-    border-radius: 10px;
+    margin-top: 3rem;
+    border-radius: 1rem;
 }
 
 .text button:hover {
@@ -62,8 +76,8 @@ body {
 }
 
 .image-1 {
-    height: 447px;
-    width: 724px;
+    max-width: 40%;
+    border-radius: 1rem;
 }
 
 .second {
@@ -71,33 +85,37 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 150px;
+    width: 100%;
+    height: 100vh;
+
 }
 
 .second h2 {
     color: white;
-    font-size: 40px;
+    font-size: 4rem;
+    margin-bottom: 3rem;
 }
 
 .cards {
     display: flex;
-    padding: 100px;
+    justify-content: center;
+    width: 100%;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     background-color: #2C2F37;
-    height: 295px;
-    width: 305px;
-    margin: 40px;
-    padding: 35px;
-    font-size: 25px;
+    min-width: 18%;
+    height: 35rem;
+    margin: 1.5rem;
+    padding: 2.5rem;
+    font-size: 2.5rem;
     font-weight: bold;
     align-items: center;
     justify-content: space-around;
     color: white;
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 
 .card:hover {
@@ -116,8 +134,8 @@ body {
 
 
 .card img {
-    height: 100px;
-    width: 100px;
+    height: 12rem;
+    width: 12rem;
 }
 
 .third {
@@ -127,30 +145,28 @@ body {
     background-color: #1A7993;
     color: white;
     
-    padding: 0px 80px;
 
-    margin-bottom: 200px;
+    margin-bottom: 20rem;
 }
 
 .third h1 {
-    font-size: 60px;
+    font-size: 6rem;
 }
 
 .third h3 {
-    font-size: 35px;
+    font-size: 3.5rem;
     font-weight: normal;
 }
 
 .third img {
-    width: 526px;
-    height: 643px;
+    max-width: 40%;
 }
 
 .third button {
-    margin-top: 50px;
-    font-size: 40px;
-    width: 560px;
-    height: 118px;
+    margin-top: 5rem;
+    font-size: 4rem;
+    width: 82%;
+    height: 11.8rem;
     border-radius: 10px;
 }
 
@@ -165,39 +181,40 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
-    padding: 100px 0px;
-
+    padding: 10rem 0;  
 }
 
 .fourth h3 {
     text-align: center;
-    font-size: 45px;
-    line-height: 55px;
-    margin-bottom: 50px;
+    font-size: 4.5rem;
+    line-height: 5.5rem;
+    margin-bottom: 5rem;
 }
 
 .inputs {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    justify-content: center;
+    align-items: center;
 }
 
 .inputs input {
-    margin: 15px;
-    height: 92px;
-    width: 700px;
-    font-size: 25px;
-    padding: 15px;
-    border-radius: 10px;
+    margin: 1.5rem;
+    height: 9.2rem;
+    width: 38%;
+    font-size: 2.5rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
 }
 
 .fourth button {
-    width: 710px;
-    height: 112px;
+    width: 38%;
+    height: 11.2rem;
     background-color: #1A7993;
     color: white;
-    font-size: 45px;
-    border-radius: 10px;
+    font-size: 4.5rem;
+    border-radius: 1rem;
     font-weight: bold;
 }
 
@@ -210,147 +227,139 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 28px;
+    font-size: 2.8rem;
     color: white;
-    padding: 150px;
+    padding: 15rem;
+    width: 100%;
 }
 .footer h3 {
     font-weight: normal;
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
 }
 
 .icons {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 250px;
+    width: 20%;
+    gap: 2rem;
     align-items: center;
     text-align: center;
 }
 
 
-/* Mobile 768px */
+@media (max-width: 1280px) {
 
-@media (max-width: 769px) {
-
-    .header {
-        margin: 50px 0px;
-        font-size: 20px;
-        width: 100%;
+    .third {
+        text-align: center;
+        padding: 2rem;
     }
+
+    .third img {
+        display: none;
+        visibility: none;
+    }
+}
+
+@media (max-width: 1100px) {
 
     .first {
-        padding: 20px;
-        display: block;
-        align-items: center;
         text-align: center;
-        height: 100vh;
-        width: 100%;
     }
-
-    .first h3 {
-        font-size: 22px;
-        margin-bottom: 30px;
-    }
-
-    .first h1 {
-        font-size: 50px;
-        margin-bottom: 30px;
-    }
-
-    .first button {
-        font-size: 30px;
-        height: 90px;
-        width: 90%;
-}
 
     .first img {
         display: none;
-    }
-
-    .second {
-        padding: 20px;
-        margin: 0;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-
-    .second h2 {
-        font-size: 37px;
-        padding: 30px;
-    }
-
-    .cards {
-        display: inline-block;
-        padding: 0px;
-        margin-bottom: 50px;
+        visibility: none;
     }
 
     .card {
-        margin: 0;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .header {
+        margin: 5%;
+        text-align: center;
+        height: auto;
+    }
+
+    .text h1 {
+        font-size: 5rem;
+        line-height: 1.2; 
+    }
+
+    .first {
         display: flex;
-        margin: 30px;
-        font-size: 30px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10% 0;
+        padding: 0 5%;
+    }
+
+    .image-1 {
+        max-width: 100%;
+        border-radius: 1rem;
+        margin-top: 5%;
+    }
+
+
+    .second {
+        text-align: center;
+        margin-bottom: 20%;
+        height: auto;
+    }
+
+    .cards {
+        flex-direction: column;
+        gap: 5%;
+    }
+
+    .card {
+        width: 80%;
+        margin: 5% auto;
+        font-size: 3rem;
+        text-align: center;
     }
 
     .third {
         text-align: center;
-        height: 100vh;
-        padding: 20px;
+        height: auto;
+        padding: 5% 0;
     }
 
-    .text-2 {
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        text-align: center;
-        align-items: center;
-    }
-
-    .third h1 {
-        font-size: 50px;
-    }
-
-    .third h3 {
-        font-size: 35px;
-    }
-
-    .third button {
-        font-size: 30px;
-        height: 90px;
-        width: 90%;
-    }
-    
-    .third img {
-        display: none;
-    }
-
-    .third button {
-
-        width: 90%;
+    .image-2 {
+        max-width: 100%;
+        border-radius: 1rem;
+        margin-top: 5%;
     }
 
     .fourth {
-        padding: 20px;
-        height: 100vh;
+        text-align: center;
+        padding: 10% 5%;
     }
 
-    .fourth input {
+    .inputs input {
         width: 90%;
     }
-    
+
     .fourth button {
-        font-size: 30px;
-        height: 90px;
         width: 90%;
+        font-size: 3.5rem;
+        margin-top: 5%;
     }
 
     .footer {
-        width: 100%;
         text-align: center;
+        padding: 10% 5%;
     }
 
-    
+    .icons {
+        width: 70%;
+        margin: 5% auto;
+        justify-content: space-around;
+    }
 }
