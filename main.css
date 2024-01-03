@@ -8,7 +8,7 @@
 
 
 body {
-    background-color: #15161B;
+    background-color: #16171b;
 }
 
 .code {
@@ -62,7 +62,7 @@ body {
 .text button {
     height: 11rem;
     width: 75%;
-    background-color: #1A7993;
+    background-color: #1a7994;
     color: white;
     font-size: 3.5rem;
     font-weight: bold;
@@ -281,63 +281,85 @@ body {
 
     .header {
         margin: 5%;
-        height: 10vh;
-    }
-
-    .first {
-        height: 70vh;
-        margin: 10% 0 30% 0;
+        text-align: center;
+        height: auto;
     }
 
     .text h1 {
         font-size: 5rem;
+        line-height: 1.2; 
     }
 
+    .first {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10% 0;
+        padding: 0 5%;
+    }
+
+    .image-1 {
+        max-width: 100%;
+        border-radius: 1rem;
+        margin-top: 5%;
+    }
+
+
     .second {
+        text-align: center;
         margin-bottom: 20%;
-        height: 100vh;
+        height: auto;
     }
 
     .cards {
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        height: 100vh;
+        gap: 5%;
     }
 
     .card {
-        width: 50%;
-    }
-
-    .second h2 {
-        font-size: 2.5rem;
+        width: 80%;
+        margin: 5% auto;
+        font-size: 3rem;
+        text-align: center;
     }
 
     .third {
-        height: 80vh;
-        margin: 0;
+        text-align: center;
+        height: auto;
+        padding: 5% 0%;
     }
 
-    .text-2 h1 {
-        font-size: 3.5rem;
-        margin-bottom: 10%;
+    .image-2 {
+        max-width: 100%;
+        border-radius: 1rem;
+        margin-top: 5%;
     }
 
-    .text-2 h3 {
-        font-size: 3rem;
+    .fourth {
+        text-align: center;
+        padding: 10% 5%;
     }
 
-    .fourth h3 {
-        padding: 5%;
+    .inputs input {
+        width: 90%;
     }
 
     .fourth button {
-        font-size: 3rem;
+        width: 90%;
+        font-size: 3.5rem;
+        margin-top: 5%;
     }
 
     .footer {
         text-align: center;
-        font-size: 3.2rem;
+        padding: 10% 5%;
+    }
+
+    .icons {
+        width: 70%;
+        margin: 5% auto;
+        justify-content: space-around;
     }
 }
